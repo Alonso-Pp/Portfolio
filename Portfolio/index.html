@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <!--Header Menu-->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Alonso</a>
+            </div>
+            <nav id="nav">    
+                <ul>
+                    <li><a href="#home" onclick="">Home</a></li>
+                    <li><a href="#aboutme" onclick="Select()">About Me</a></li>
+                    <li><a href="#skills" onclick="Select()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="">CV</a></li>
+                    <li><a href="#portfolio" onclick="">Portfolio</a></li>
+                    <li><a href="#contact" onclick="">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    
+    <!--Home section-->
+    <section id="home" class="home">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="img/perfil.png" alt="">
+            </div>
+            <h1>Alonso Hernández</h1>
+            <h2>Software Engineer</h2>
+            <div class="redes">
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-solid fa-envelope"></i></a>
+                <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--About Me section-->
+    <section id="aboutme" class="about-me">
+        <div class="container-section">
+            <h2>About Me</h2>
+            <p><span>texto </span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae rerum doloribus nostrum inventore tempore laudantium aut obcaecati impedit voluptatum nobis, cupiditate optio tenetur eius, dignissimos ab ducimus! Facilis, dignissimos laudantium.</p>
+
+            <div class="row">
+                <!--Personal-->
+                <div class="colum">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleanos</strong>
+                            sas
+                        </li>
+                        <li>
+                            <strong>phone</strong>
+                            454545
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            sda
+                        </li>
+                        <li>
+                            <strong>WebSite</strong>
+                            as
+                        </li>
+                        <li>
+                            <Strong>Address</Strong>
+                            asdsa
+                        </li>
+                    </ul>
+                </div>
+
+                <!--Interes-->
+                <div class="colum">
+                    <h3>Interes</h3>
+                        <div class="container-interes">
+                            <div class="interes">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <Span>Games</Span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-headphones"></i>
+                                <Span>Music</Span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-plane"></i>
+                                <Span>Plane</Span>
+                            </div>
+                        </div> 
+                </div>
+            </div>
+            <button>
+                Download CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+        
+    </section>
+
+    <!--Skills section-->
+    <section id="skills" class="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="row">
+                <!--Skills section-->
+                <div class="colum">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="slash-skill">
+                            <div class="progress java">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="slash-skill">
+                            <div class="progress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>R</span>
+                        <div class="slash-skill">
+                            <div class="progress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional Skill section-->
+                <div class="colum">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="slash-skill">
+                            <div class="progress">
+                                <span >80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Cposy</span>
+                        <div class="slash-skill">
+                            <div class="progress">
+                                <span >80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Curriculum section-->
+    <section id="curriculum" class="curriculum">
+        <div class="container-section">
+            <h2>Curriculum</h2>
+            <div class="row">
+                <div class="left colum">
+                    <h3>Educacion</h3>
+                    <div class="item lef">
+                        <h4>Ingenieria en Software</h4>
+                        <span class="university">UAZ</span>
+                        <span class="date"></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolores eaque doloribus officia consequatur quo qui! Quibusdam quasi perferendis magnam inventore est nesciunt, culpa magni. Nesciunt eveniet quod ut dolorum!</p>
+                        <div class="conectorL">
+                            <div class="circleL"></div>
+                        </div>
+                    </div>
+                    <div class="item lef">
+                        <h4>Ingenieria en Software</h4>
+                        <span class="university">UAZ</span>
+                        <span class="date">888</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolores eaque doloribus officia consequatur quo qui! Quibusdam quasi perferendis magnam inventore est nesciunt, culpa magni. Nesciunt eveniet quod ut dolorum!</p>
+                        <div class="conectorL">
+                            <div class="circleL"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right colum">
+                    <h3>Trabajo</h3>
+                    <div class="item rig">
+                        <h4>Ingenieria en Software</h4>
+                        <span class="university">UAZ</span>
+                        <span class="date"></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolores eaque doloribus officia consequatur quo qui! Quibusdam quasi perferendis magnam inventore est nesciunt, culpa magni. Nesciunt eveniet quod ut dolorum!</p>
+                        <div class="conectorR">
+                            <div class="circleR"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Portfolio section-->
+    <!--
+    <section id="portfolio" class="portfolio">
+        <div class="container-seccion">
+            <h2>Portfolio</h2>
+            <div class="galery">
+                <img src="" alt="">
+                <div class="overlay">
+                    <h3>DADSADA</h3>
+                    <p>sdsadasd</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!--Contact section-->
+    <section id="contact" class="contac">
+        <div class="contac-section">
+            <h2>Contact</h2>
+            <div class="row">
+                <!--Form section-->
+                <div class="colum">
+                    <input type="text" placeholder="Nambre">
+                    <input type="text" placeholder="Phone number">
+                    <input type="text" placeholder="Mail">
+                    <input type="text" placeholder="Topic">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+
+                </div>
+                <div class="colum">
+                    <img src="" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Mexico
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile"></i>
+                                Llamanos
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                l.alonsoherdez97@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
